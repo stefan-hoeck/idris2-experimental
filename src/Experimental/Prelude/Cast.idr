@@ -36,6 +36,7 @@ export
 Cast Bits64 String where
   cast = prim__cast_Bits64String
 
+export
 Cast Int8 Integer where
   cast = prim__cast_Int8Integer
 
