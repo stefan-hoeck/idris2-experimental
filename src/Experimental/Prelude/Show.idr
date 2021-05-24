@@ -1,5 +1,7 @@
 module Experimental.Prelude.Show
 
+import Experimental.Builtin
+
 firstCharIs : (Char -> Bool) -> String -> Bool
 firstCharIs p "" = False
 firstCharIs p str = p (assert_total (prim__strHead str))
