@@ -17,7 +17,7 @@ jobs:
       matrix:
         idris2-ver:
           - latest
-          - v0.3.0-625-g699de703
+          - v0.3.0-623-gb457d157
     container: snazzybucket/idris2:${{ matrix.idris2-ver }}
     steps:
       - name: Checkout
