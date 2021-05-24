@@ -1,0 +1,28 @@
+name: Ubuntu
+
+on:
+  push:
+    branches:
+      - '**'
+    tags:
+      - '**'
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        idris2-ver:
+          - latest
+          - v0.3.0-625-g699de703
+    container: snazzybucket/idris2:${{ matrix.idris2-ver }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build
+        run: make
+      - name: Test
+        run: make test INTERACTIVE=''
