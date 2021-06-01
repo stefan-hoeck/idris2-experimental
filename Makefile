@@ -4,9 +4,9 @@ RUNTESTS := build/exec/runtests
 
 .PHONY: all lib install clean clean-install repl
 
-clean-install: clean install
-
 all: lib
+
+clean-install: clean install
 
 lib:
 	${IDRIS2} --build experimental.ipkg
