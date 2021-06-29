@@ -6,9 +6,4 @@ sourcedir  = "src"
 depends    = base        >= 0.4.0
 
 modules = Experimental.Builtin
-        , Experimental.Data.Bits
         , Experimental.Prelude
-        , Experimental.Prelude.Cast
-        , Experimental.Prelude.EqOrd
-        , Experimental.Prelude.Num
-        , Experimental.Prelude.Show

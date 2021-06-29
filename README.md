@@ -13,3 +13,12 @@ Please note, that only stuff that might later be added
 to the `prelude` or `base` should go in this library.
 
 Contributions highly welcome!
+
+## Idris2 Version
+
+Interface implementations for the new integer types have
+been recently added to the prelude, so these have been
+removed from this library.
+
+The latest commit has been built with
+Idris 2, version 0.4.0-6f9b926b1.
