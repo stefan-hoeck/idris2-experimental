@@ -21,4 +21,4 @@ been recently added to the prelude, so these have been
 removed from this library.
 
 The latest commit has been built with
-Idris 2, version 0.4.0-6f9b926b1.
+Idris 2, version 0.4.0-9cb20f365.

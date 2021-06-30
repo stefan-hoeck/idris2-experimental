@@ -5,5 +5,4 @@ version    = 0.2.0
 sourcedir  = "src"
 depends    = base        >= 0.4.0
 
-modules = Experimental.Builtin
-        , Experimental.Prelude
+modules = Experimental.Prelude
